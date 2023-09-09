@@ -89,7 +89,7 @@ class Deck {
 
         if (this.player1.points > this.player2.points) {
             console.log('Player 1 wins wih a score of: ' + this.player1.points)
-        } else {
+        } else if (this.player2.points > this.player1.points) {
             console.log('Player 2 wins with a score of: ' + this.player2.points)
         }
 
